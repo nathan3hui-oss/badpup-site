@@ -1,0 +1,14 @@
+:root { --bg: #fff6e6; --ink: #2b2118; --muted: #7a6a58; --accent: #e8792b; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1f1a15; --ink: #f3e8d8; --muted: #b5a48e; --accent: #f29a52; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 16px/1.7 -apple-system, "PingFang SC", "Helvetica Neue", sans-serif; }
+main { max-width: 680px; margin: 0 auto; padding: 24px 16px 64px; }
+header { margin-bottom: 24px; }
+.brand { font-weight: 700; color: var(--accent); text-decoration: none; font-size: 18px; }
+h1 { font-size: 28px; margin: 8px 0; }
+h2 { font-size: 18px; margin: 28px 0 4px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+hr { border: 0; border-top: 1px solid var(--muted); opacity: .3; margin: 48px 0; }
+nav a { margin-right: 16px; }
